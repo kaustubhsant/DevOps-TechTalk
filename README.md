@@ -87,24 +87,25 @@ like:
 To understand and have a hands on experience using IBM Bluemix, we created a simple web app and demostrated how we can use IBM Bluemix services and runtimes. 
 
 Steps followed in Demo:
-1. Sign up to use IBM Bluemix.
-2. Go to the IBM Bluemix Dashboard.
-3. Select *Create App* on the *Cloud Foundary Apps*.
-4. Choose a runtime for the app. We selected *Node.js* and name your app.
-5. The app is staged to run. You can access your app at http://{yourappname}.mybluemix.net. 
-6. Bluemix gives options of using Eclipse, Cloud Foundary cli and Git cli for modifying your code.
-7. Go to app overview. All the information related with the app is shown here like runtime used, number of instances, memory quota, available memory, app health, files, logs, environment variables. 
-8. Add services or bind API to the app. We added the *Monitoring and Analytics* and *Track & Plan* service to our app.
-9. It restarts app after service is added. 
-10. Go to app overview. here it now shows the added service. Click on Monitoring and Analytics. It shows the monitoring information for your app like availability, performance, log analysis and events.
-11. On App overview page click on *Add Git* to add version control to your app. The git repo is hosted on http://hub.jazz.net.
-12. Go to the git repo. Bluemix provides an IDE in the browser itself or you can download your code and update and push back through commandline. Click *Edit Code* to modify any code. After finished editing, you can deploy the updated app from here by clicking on the *play* button. 
-13. You also have the option to do *Live Edit*. When this option is ON, the changes are directly deployed. This is like updating your app on the fly.
-14. Click on *Track & Plan* and enable track & plan.
-15. Go to Track & Plan and you can add stories, defect, tasks to your project for *agile* development. We created a *defect* and a *task* here. You can assign these tasks to users and set severity.
-16. Click on the *Build & Deploy*. Bluemix by default gives you a build and a deplyment stage for your pipeline. You can add new stages or make changes in existing ones. We add a new stage with job as deploy and select Cloud Foundary in deployer type. Any stage can be run by clicking on the *play* button. Play the Build stage. It does the build of the project and if that is successful it moves to next stage in pipeline. If there is any failure it informs where it failed and stops.
+
+ 1. Sign up to use IBM Bluemix.
+ 2. Go to the IBM Bluemix Dashboard.
+ 3. Select *Create App* on the *Cloud Foundary Apps*.
+ 4. Choose a runtime for the app. We selected *Node.js* and name your app.
+ 5. The app is staged to run. You can access your app at http://{yourappname}.mybluemix.net. 
+ 6. Bluemix gives options of using Eclipse, Cloud Foundary cli and Git cli for modifying your code.
+ 7. Go to app overview. All the information related with the app is shown here like runtime used, number of instances, memory quota, available memory, app health, files, logs, environment variables. 
+ 8. Add services or bind API to the app. We added the *Monitoring and Analytics* and *Track & Plan* service to our app.
+ 9. It restarts app after service is added. 
+ 10. Go to app overview. here it now shows the added service. Click on Monitoring and Analytics. It shows the monitoring information for your app like availability, performance, log analysis and events.
+ 11. On App overview page click on *Add Git* to add version control to your app. The git repo is hosted on http://hub.jazz.net.
+ 12. Go to the git repo. Bluemix provides an IDE in the browser itself or you can download your code and update and push back through commandline. Click *Edit Code* to modify any code. After finished editing, you can deploy the updated app from here by clicking on the *play* button. 
+ 13. You also have the option to do *Live Edit*. When this option is ON, the changes are directly deployed. This is like updating your app on the fly.
+ 14. Click on *Track & Plan* and enable track & plan.
+ 15. Go to Track & Plan and you can add stories, defect, tasks to your project for *agile* development. We created a *defect* and a *task* here. You can assign these tasks to users and set severity.
+ 16. Click on the *Build & Deploy*. Bluemix by default gives you a build and a deplyment stage for your pipeline. You can add new stages or make changes in existing ones. We add a new stage with job as deploy and select Cloud Foundary in deployer type. Any stage can be run by clicking on the *play* button. Play the Build stage. It does the build of the project and if that is successful it moves to next stage in pipeline. If there is any failure it informs where it failed and stops.
 
 ####Screencast
 
-![image](images/Tech Talk.mp4)
+The screencast is available at [Tech Talk.mp4](images/Tech Talk.mp4)
 
