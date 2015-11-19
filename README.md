@@ -10,9 +10,17 @@ Assigned: Kaustubh Sant
 
 ###Concentrating on services related to DevOps:
 
-1.Active deploy. -> Nikhil
+**1.Active deploy**:
 
-2.**Auto Scaling**:
+This feature is still in BETA phase. With Active Deploy, the latest changes to our application can be deployed without any downtime. There are four phases during the active deploy.
+* Original Version: This is the initial phase where the original version is still active and new version is yet to be rolled out.
+* Rampup Phase: During this phase the rolling out of new version is began. The new version is deployed on new instances and the original version will not
+be effected.
+* Test Phase: The Rollout has been done. During this phase, we can test the latest changes and that too in a production environment. If tests fail, we can stop rolling out the new features.
+* Rampdown Phase: By this phase we will have confidence on the new version as the testing has already been done. We can now stop the original version and
+route all the traffic to new version.
+
+**2.Auto Scaling**:
   
 With AutoScaling feature, IBM Bluemix allows us to manage the compute capacity of our application. Whenever the load on our application increases,more instances are spawned and traffic will be directed to new instances as well. In this feature, we have the option to specify parameters like 
   * 'Scale-out' : The number of new instances to be spawned in case load increases.
