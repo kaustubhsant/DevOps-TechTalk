@@ -27,7 +27,9 @@ With AutoScaling feature, IBM Bluemix allows us to manage the compute capacity o
   * 'Scale-in' : The number of instances to be removed when we need to scale down.
   * 'Allowable Maximum Instance Count': The maximum number of instances can be started. Scaling does not happen beyond this limit.
 
-3.delivery pipeline. -> Nikhil
+**3.Delivery Pipeline**:
+
+This feature allows you to build your application, run tests and deploy the application to servers. This is extremely helpful as all this would on cloud and you would not need to maintain seperate build infrastructure. In delivery pipeline, you are needed the option to provide the build script and this script will be run to procure the build artifacts. Currently pipeline works with either git or cloudfarm source code repositories. Deployments can be done across the regions and to multiple instances. The advantage it holds over Jenkins is that it is entirely in Cloud and is easy to configure.
 
 4.monitoring and analytics. ->Kaustubh
 
