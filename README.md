@@ -37,7 +37,13 @@ With AutoScaling feature, IBM Bluemix allows us to manage the compute capacity o
 
 7.load impact. -> Kaustubh
 
-8.new relic. -> Nikhil
+**8.New Relic**:
+
+This is a third party tool which can be integrated into IBM Bluemix Devops services. New Relic is web app performance analysis tool which provides features
+like:
+* Code level visibilty: See which functions/code segments are consuming CPU the most.
+* Database Call reponse times.
+* Alerts: Sends alerts to the team when performance goes down.
 
 ###Show how bluemix works for build, test and deplyment
 
