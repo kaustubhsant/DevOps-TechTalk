@@ -1,12 +1,18 @@
 # DevOps-TechTalk
 
-#Tool
+#Team
+
+Kaustubh Sant - ksant
+Nikhil Chinthapalli - nchinth
+Vamshi Vikas - 
+Rishi Vardhi -
 
 ##IBM Bluemix
+---------------
 
-IBM Bluemix is an open-standards, cloud platform for building, running, and managing applications. With Bluemix, developers can focus on building excellent user experiences with flexible compute options, choice of DevOps tooling, and a powerful set of IBM and third-party APIs and services. It provides mobile and web developers access to IBM software for integration, security, transaction, and other key functions, as well as software from business partners. 
+[IBM Bluemix](https://console.ng.bluemix.net/) is an open-standards, cloud platform for building, running, and managing applications. With Bluemix, developers can focus on building excellent user experiences with flexible compute options, choice of DevOps tooling, and a powerful set of IBM and third-party APIs and services. It provides mobile and web developers access to IBM software for integration, security, transaction, and other key functions, as well as software from business partners. 
 
-Built on Cloud Foundry open source technology, Bluemix makes application development easier with Platform as a Service (PaaS). Bluemix also provides pre-built Mobile Backend as a Service (MBaaS) capabilities. Bluemix also has cloud deployments that fit your needs. It has different services, runtimes, containers, virtual machines. With the broad set of services and runtimes in Bluemix, the developer gains control and flexibility, and has access to various data options, from predictive analytics to big data.
+Built on Cloud Foundry open source technology, Bluemix makes application development easier with Platform as a Service (PaaS). Bluemix also provides pre-built Mobile Backend as a Service (MBaaS) capabilities. Bluemix also has cloud deployments that fit your needs. It has different *services, runtimes, containers, virtual machines, starters, boilerplates, and buildpacks*. With the broad set of services and runtimes in Bluemix, the developer gains control and flexibility, and has access to various data options, from predictive analytics to big data.
 
 Bluemix provides the following features:
 
@@ -17,7 +23,7 @@ Bluemix provides the following features:
 * Optimized and elastic workloads.
 * Continuous availability.
 
-Bluemix abstracts and hides most of the complexities that are associated with hosting and managing cloud-based apps.
+Bluemix abstracts and hides most of the complexities that are associated with hosting and managing cloud-based apps. The [catalog](https://console.ng.bluemix.net/catalog/) shows the different services that IBM Bluemix provides.
 
 
 ###Concentrating on services related to DevOps:
@@ -48,10 +54,10 @@ This feature allows you to build your application, run tests and deploy the appl
 The Monitoring and Analytics service allows to gain the visibility and control you need over your application. You can determine the response time your users see, understand the performance and availability of the application components, leverage analytics to keep your application up and performing well, and get automatically notified if application problems occur.
 The main advantages of using Monitoring and Analytics are:
 
-	* Effortless visibility: It lets you get the visibility you need without taking time and effort to learn and deploy another monitoring tool.
-	* Diagnose problems faster: It helps to quickly identify the root cause of application problems with line of code diagnostics.
-	* Keep your app running: It helps to keep the app up and reduce maintainence costs while improving availability.
-	-Resolve problems with embedded analytics: Intelligently searches through logs and metric data to find the answers to your application problems.
+  * Effortless visibility: It lets you get the visibility you need without taking time and effort to learn and deploy another monitoring tool.
+  * Diagnose problems faster: It helps to quickly identify the root cause of application problems with line of code diagnostics.
+  * Keep your app running: It helps to keep the app up and reduce maintainence costs while improving availability.
+  * Resolve problems with embedded analytics: Intelligently searches through logs and metric data to find the answers to your application problems.
 
 **5.Track & Plan**
 
