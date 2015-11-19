@@ -92,8 +92,8 @@ Steps followed in Demo:
  2. Go to the IBM Bluemix Dashboard.
  3. Select *Create App* on the *Cloud Foundary Apps*.
  4. Choose a runtime for the app. We selected *Node.js* and name your app.
- 5. The app is staged to run. You can access your app at http://{yourappname}.mybluemix.net. 
- 6. Bluemix gives options of using Eclipse, Cloud Foundary cli and Git cli for modifying your code.
+ 5. The app is staged to run. You can access your app at *http://{yourappname}.mybluemix.net.*
+ 6. Bluemix gives options of using *Eclipse, Cloud Foundary cli and Git cli* for modifying your code.
  7. Go to app overview. All the information related with the app is shown here like runtime used, number of instances, memory quota, available memory, app health, files, logs, environment variables. 
  8. Add services or bind API to the app. We added the *Monitoring and Analytics* and *Track & Plan* service to our app.
  9. It restarts app after service is added. 
@@ -107,5 +107,5 @@ Steps followed in Demo:
 
 ####Screencast
 
-The screencast is available at [Tech Talk.mp4](images/Tech Talk.mp4)
+The screencast is available at [Tech Talk.mp4](images/Tech Talk.mp4) and [Load Impact service](images/Load Impact Service.mp4).
 
