@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: DevOpsTestApp1990
+  host: devopstestapp1990
+  disk_quota: 1024M
+  services:
+  - Monitoring and Analytics-qw
